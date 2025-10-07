@@ -9,7 +9,7 @@
   "projectType": "REGULAR",
   "projectAppType": "REGULAR",
   "hasSetupSection": false,
-  "owner": "nate.kim@dataiku.com",
+  "owner": "admin",
   "permissionsVersion": "V2",
   "permissions": [],
   "additionalDashboardUsers": {
@@ -26,7 +26,6 @@
       "zonesManualPositioning": false
     },
     "gitCommitMode": "ALL_EXPLICIT",
-    "useRemoteGit": true,
     "disableAutomaticTriggers": false,
     "integrations": {
       "integrations": []
@@ -142,7 +141,6 @@
     "dkuProperties": []
   },
   "name": "gittest",
-  "projectStatus": "Sandbox",
   "metrics": {
     "probes": [],
     "engineConfig": {
@@ -206,7 +204,9 @@
     "lastModifiedOn": 1742566431568
   },
   "shortDesc": "The project *gittest* was created by natekim on Mar 21st 2025",
-  "tags": [],
+  "tags": [
+    "imported"
+  ],
   "customFields": {
     "gdpr_forbid_dataset_sharing": false,
     "gdpr_forbid_dataset_export": false,
