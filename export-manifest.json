@@ -1,0 +1,344 @@
+{
+  "exportedWithOptions": {
+    "exportUploads": true,
+    "exportManagedFS": true,
+    "exportAnalysisModels": true,
+    "exportSavedModels": true,
+    "exportManagedFolders": true,
+    "exportModelEvaluationStores": true,
+    "exportProjectResources": true,
+    "exportLabelingTasks": true,
+    "exportAllInputDatasets": true,
+    "exportAllDatasets": true,
+    "exportAllInputManagedFolders": true,
+    "exportGitRepository": false,
+    "exportInsightsData": true,
+    "useManualPluginsInfo": false,
+    "exportSavedModelsRequiredVersions": false,
+    "exportNotebooksWithOutputs": true,
+    "exportForNewBranch": false,
+    "exportKnowledgeBanks": true,
+    "exportEditableDatasets": true,
+    "exportPromptStudioHistories": true,
+    "exportNotebooks": true,
+    "includedDatasetsData": [],
+    "includedSavedModels": [],
+    "includedModelEvaluationStores": [],
+    "includedManagedFolders": [],
+    "includedCodeStudios": [],
+    "includedKnowledgeBanks": [],
+    "includedLabelingTasks": [],
+    "includedPromptStudiosHistories": [],
+    "shareAllInputDatasets": false,
+    "exportForeignObjectsReferences": true
+  },
+  "actualContent": {
+    "includedDatasets": [
+      {
+        "name": "fsd",
+        "type": "Filesystem",
+        "usedTransferMethod": "RAW_FILES",
+        "size": 0
+      },
+      {
+        "name": "yy",
+        "type": "Inline",
+        "usedTransferMethod": "INLINE",
+        "size": 16
+      },
+      {
+        "name": "yy_copysd",
+        "type": "Filesystem",
+        "usedTransferMethod": "RAW_FILES",
+        "size": 0
+      }
+    ],
+    "includedSavedModels": [],
+    "includedManagedFolders": [],
+    "includedModelEvaluationStores": [],
+    "includedCodeStudios": [],
+    "includedKnowledgeBanks": [],
+    "includedLabelingTasks": [],
+    "includedPromptStudiosHistories": [],
+    "allAnalysisData": true,
+    "insightsData": true
+  },
+  "originalProjectKey": "GITTEST_ORIGIN_REBASE",
+  "manifestVersion": 3,
+  "generatedWithDSSVersion": "13.5.0",
+  "generatedWithDSSConfVersion": "13500",
+  "foreignObjects": [],
+  "exportedWithPlugins": [
+    {
+      "pluginId": "ip-range-matcher",
+      "version": "1.0.2"
+    },
+    {
+      "pluginId": "s3-connection-creator",
+      "version": "0.0.1"
+    },
+    {
+      "pluginId": "anonymizer",
+      "version": "0.0.4"
+    },
+    {
+      "pluginId": "microsoft-power-bi-v2",
+      "version": "2.0.4"
+    },
+    {
+      "pluginId": "model-stress-test",
+      "version": "1.0.6"
+    },
+    {
+      "pluginId": "salesforce",
+      "version": "1.2.1"
+    },
+    {
+      "pluginId": "agent-connect",
+      "version": "1.0.0"
+    },
+    {
+      "pluginId": "traces-explorer",
+      "version": "1.0.1"
+    },
+    {
+      "pluginId": "googlesheets",
+      "version": "1.1.1"
+    },
+    {
+      "pluginId": "api-connect",
+      "version": "1.1.3"
+    },
+    {
+      "pluginId": "titan-ml-connector",
+      "version": "1.0.0"
+    },
+    {
+      "pluginId": "admin-elasticai",
+      "version": "0.0.1"
+    },
+    {
+      "pluginId": "mcp",
+      "version": "0.0.1"
+    },
+    {
+      "pluginId": "document-question-answering",
+      "version": "1.5.0"
+    },
+    {
+      "pluginId": "airtable",
+      "version": "0.1.4"
+    },
+    {
+      "pluginId": "colorbrewer-palettes",
+      "version": "0.0.1"
+    },
+    {
+      "pluginId": "dss-kubernetes-admin",
+      "version": "0.0.1"
+    },
+    {
+      "pluginId": "notebook",
+      "version": "0.0.1"
+    },
+    {
+      "pluginId": "github",
+      "version": "0.0.5"
+    },
+    {
+      "pluginId": "googledrive",
+      "version": "1.1.5"
+    },
+    {
+      "pluginId": "example_custom_llm_hf_inference",
+      "version": "0.0.1"
+    },
+    {
+      "pluginId": "ollama",
+      "version": "0.0.1"
+    },
+    {
+      "pluginId": "builtin-macros",
+      "version": "1.0.0"
+    },
+    {
+      "pluginId": "dynamodb",
+      "version": "1.0.0"
+    },
+    {
+      "pluginId": "k8s-metrics-utils",
+      "version": "1.0.0"
+    },
+    {
+      "pluginId": "gdpr",
+      "version": "0.1.5"
+    },
+    {
+      "pluginId": "aks-clusters",
+      "version": "2.4.1"
+    },
+    {
+      "pluginId": "sap-odata",
+      "version": "1.0.2"
+    },
+    {
+      "pluginId": "sharepoint-online",
+      "version": "1.0.13"
+    },
+    {
+      "pluginId": "sentiment-analysis",
+      "version": "1.6.0"
+    },
+    {
+      "pluginId": "ownerless-project",
+      "version": "0.0.1"
+    },
+    {
+      "pluginId": "sentence-embedding",
+      "version": "1.2.2"
+    },
+    {
+      "pluginId": "projectcreation",
+      "version": "0.0.1"
+    },
+    {
+      "pluginId": "tesseract-ocr",
+      "version": "2.3.0"
+    },
+    {
+      "pluginId": "geoadmin",
+      "version": "2.3.1"
+    },
+    {
+      "pluginId": "box-com",
+      "version": "1.0.1"
+    },
+    {
+      "pluginId": "emr-clusters",
+      "version": "0.0.2"
+    },
+    {
+      "pluginId": "local-r-dev-setup",
+      "version": "1.0.0"
+    },
+    {
+      "pluginId": "athena-unload",
+      "version": "0.0.2"
+    },
+    {
+      "pluginId": "code-studio-blocks",
+      "version": "1.0.0"
+    },
+    {
+      "pluginId": "multisheet-excel-export",
+      "version": "1.0.1"
+    },
+    {
+      "pluginId": "advisor",
+      "version": "1.2.0"
+    },
+    {
+      "pluginId": "julia",
+      "version": "1.0.0"
+    },
+    {
+      "pluginId": "ai-art",
+      "version": "1.0.0"
+    },
+    {
+      "pluginId": "eks-clusters",
+      "version": "1.1.0"
+    },
+    {
+      "pluginId": "pi-system",
+      "version": "1.0.1"
+    },
+    {
+      "pluginId": "looker-query",
+      "version": "0.0.3"
+    },
+    {
+      "pluginId": "timeseries-forecast",
+      "version": "1.2.1"
+    },
+    {
+      "pluginId": "tableau-hyper-export",
+      "version": "0.2.2"
+    },
+    {
+      "pluginId": "k8s",
+      "version": "0.0.1"
+    },
+    {
+      "pluginId": "visual-snowparkml",
+      "version": "1.1.5"
+    },
+    {
+      "pluginId": "azure-ad-sync",
+      "version": "1.0.5"
+    },
+    {
+      "pluginId": "timeseries-preparation",
+      "version": "2.0.2"
+    },
+    {
+      "pluginId": "azureopenai-apim-custom-llm",
+      "version": "0.0.2"
+    },
+    {
+      "pluginId": "model-drift",
+      "version": "3.1.6"
+    },
+    {
+      "pluginId": "monte-carlo",
+      "version": "0.0.4"
+    },
+    {
+      "pluginId": "dataset-audit",
+      "version": "0.0.5"
+    },
+    {
+      "pluginId": "splunk",
+      "version": "1.1.0"
+    },
+    {
+      "pluginId": "ml-assisted-labeling",
+      "version": "4.1.1"
+    },
+    {
+      "pluginId": "freshdesk-tool",
+      "version": "0.2.0"
+    },
+    {
+      "pluginId": "gke-clusters",
+      "version": "1.1.4"
+    },
+    {
+      "pluginId": "kubernetes-utilities",
+      "version": "0.0.1"
+    }
+  ],
+  "exportedWithCodeStudioTemplates": [
+    {
+      "templateId": "fsd",
+      "templateLabel": "fsd"
+    },
+    {
+      "templateId": "sadf",
+      "templateLabel": "sadf"
+    }
+  ],
+  "requiredCodeStudioTemplates": [],
+  "requiredConnections": {
+    "filesystem_managed": {
+      "name": "filesystem_managed",
+      "type": "Filesystem",
+      "isMissing": false
+    }
+  },
+  "allowedMissingConnections": [],
+  "usedCodeEnvRefs": [],
+  "allowedMissingCodeEnvs": [],
+  "usedContainerExecConfs": [],
+  "hasPartitionedDataset": false
+}
